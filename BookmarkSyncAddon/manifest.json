@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "BookmarkSync",
+  "version": "0.1",
+
+  "description": "Private Bookmark syncing tool",
+
+  "permissions":["bookmarks"],
+
+  "browser_action":{
+    "default_title":"Test"
+  },
+
+  "background":{
+    "scripts":[
+      "background.js",
+      "ownStorage.js"
+    ]
+  }
+}
